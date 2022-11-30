@@ -12,6 +12,5 @@ Feature: Bootcamp E2E
 
   Scenario: Internet shop logo button
     When I click on the Today's Best Deals tab
-    * I am on the Today's Best Deals page
     * I click on the Internet shop logo
     Then I am on the main page

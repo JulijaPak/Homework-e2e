@@ -38,9 +38,6 @@ Then("I see list with at least one item", async () => {
 When("I click on the Today's Best Deals tab", async () => {
     const tab = await $('#trendingBanner_720202');
     await tab.click();
-});
-
-When("I am on the Today's Best Deals page", async () => {
     await expect(browser).toHaveUrl("https://www.newegg.com/todays-deals?cm_sp=Head_Navigation-_-Under_Search_Bar-_-Today%27s+Best+Deals&icid=720202");
 });
 
